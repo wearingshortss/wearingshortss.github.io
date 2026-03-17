@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <section class="hero">
+        <div class="hero-badge">Trusted Insurance Insights</div>
+        <h1>Welcome to Our<br><em>Insurance Blog</em></h1>
+        <p>Your go-to source for the latest news and insights on insurance — clear, honest, and always relevant.</p>
+        <div class="cta-wrap">
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+ 
+    <section class="featured-articles">
+        <p class="section-label">Latest Reads</p>
+        <h2>
+            <span>Hand-picked for you</span>
+            Featured Articles
+        </h2>
+        <div class="articles-grid">
+            <article class="reveal">
+                <span class="article-tag">Life Insurance</span>
+                <h3>Nachgehender Leistungsanspruch </h3>
+                <p>In Deutschland gilt grundsätzlich: Wer in einer gesetzlichen Krankenversicherung (GKV) versichert ist, hat Anspruch auf medizinische Leistungen.</p>
+                <a href="Nachgehender-leistungsanspruch.html">Read More</a>
+            </article>
+            <article class="reveal">
+                <span class="article-tag">Gesundheit, Vorsorge & Finanzen</span>
+                <h3>Unfallversicherung für Rentner – sinnvoller Schutz im Alter</h3>
+                <p>Der Ruhestand ist eine Zeit, in der viele Menschen ihr Leben genießen möchten – mit Freizeitaktivitäten, Reisen und Zeit mit Familie und Freunden...</p>
+                <a href="Unfallversicherung-rentner.html">Read More</a>
+            </article>
+            <article class="reveal">
+                <span class="article-tag">Home</span>
+                <h3>Homeowners Insurance Explained</h3>
+                <p>Learn about the different types of homeowners policies and find out which one truly protects your investment.</p>
+                <a href="#">Read More</a>
+            </article>
+        </div>
+    </section>
+ 
+    <section class="call-to-action">
+        <h2>Ready to protect <em>what matters most?</em></h2>
+        <a href="#" class="cta-button outline">Contact Us</a>
+    </section>
+ 
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">Insurance Blog</div>
+            <div class="footer-divider"></div>
+            <div class="footer-contacts">
+                <a href="mailto:info@example.com">info@example.com</a>
+                <span>|</span>
+                <a href="tel:+11234567890">(123) 456-7890</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Insurance Blog. All rights reserved.</p>
+        </div>
+    </footer>
+ 
+    <script>
+        // Scroll reveal
+        const reveals = document.querySelectorAll('.reveal');
+        const obs = new IntersectionObserver((entries) => {
+            entries.forEach((e, i) => {
+                if (e.isIntersecting) {
+                    setTimeout(() => e.target.classList.add('visible'), i * 120);
+                    obs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.15 });
+        reveals.forEach(el => obs.observe(el));
+    </script>
+ 
+</body>
+</html>
