@@ -1,302 +1,211 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unfallversicherung für Rentner – Insurance Blog</title>
-    <link rel="stylesheet" href="styleblog.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unfallversicherung für Rentner – Insurance Blog</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
 
-    <!-- ── BLOGGER TOP NAVBAR ── -->
-    <div class="b-navbar">
-        <a href="index.html">← Insurance Blog</a>
-        <span class="b-navbar-title">Insurance Blog</span>
-        <div class="b-navbar-icons">
-            <button class="b-navbar-icon" title="Suchen">&#x2315;</button>
-        </div>
-    </div>
+<!-- HEADER -->
+<header class="hd">
+  <a href="index.html">Insurance Blog</a>
+</header>
 
-    <!-- ── SITE HEADER ── -->
-    <header class="b-header">
-        <div class="b-header-inner">
-            <div>
-                <a href="index.html" class="b-site-title">Insurance Blog</a>
-                <div class="b-site-desc">Ratgeber rund um Versicherungen – verständlich &amp; aktuell</div>
-            </div>
-        </div>
-        <nav class="b-header-nav">
-            <div class="b-header-nav-inner">
-                <a href="index.html" class="b-nav-link">Home</a>
-                <a href="#" class="b-nav-link active">Unfallversicherung</a>
-                <a href="#" class="b-nav-link">Krankenversicherung</a>
-                <a href="#" class="b-nav-link">Lebensversicherung</a>
-                <a href="#" class="b-nav-link">Hausrat</a>
-                <a href="#" class="b-nav-link">Kfz</a>
-                <a href="#" class="b-nav-link">Über uns</a>
-            </div>
-        </nav>
-    </header>
+<!-- ARTICLE -->
+<div class="wrap">
+<article class="post">
 
-    <!-- ── PAGE ── -->
-    <div class="b-page">
+  <!-- Eyebrow -->
+  <div class="eyebrow">
+    <span class="etag">Unfallversicherung</span>
+    <span class="etag">Ratgeber</span>
+  </div>
 
-        <!-- ── LEFT SIDEBAR ── -->
-        <aside class="b-sidebar">
+  <!-- Title -->
+  <div class="post-title">
+    <span>Unfallversicherung für Rentner –</span>
+    <button class="share-btn" title="Teilen">›</button>
+  </div>
+  <div class="post-title-em">sinnvoller Schutz im Alter</div>
+  <div class="post-date">März 17, 2026 · ca. 8 Min. Lesezeit</div>
 
-            <!-- Profile -->
-            <div class="b-profile">
-                <div class="b-avatar">&#x1F464;</div>
-                <div class="b-profile-name">Insurance Blog</div>
-                <a href="#" class="b-profile-btn">Visit Profile</a>
-            </div>
+  <!-- TOC -->
+  <div class="toc">
+    <div class="toc-title">Inhaltsverzeichnis</div>
+    <ol>
+      <li><a href="#s1">Was ist eine Unfallversicherung für Rentner?</a></li>
+      <li><a href="#s2">Warum brauchen Rentner eine Unfallversicherung?</a></li>
+      <li><a href="#s3">Leistungen im Überblick</a></li>
+      <li><a href="#s4">Invaliditätsleistung &amp; Gliedertaxe</a></li>
+      <li><a href="#s5">Unfallrente</a></li>
+      <li><a href="#s6">Invaliditätsleistung mit Progression</a></li>
+      <li><a href="#s7">Versicherung erweitern – Unfall PLUS</a></li>
+      <li><a href="#s8">Wann gilt ein Ereignis als Unfall?</a></li>
+      <li><a href="#s9">Häufige Fragen</a></li>
+      <li><a href="#s10">Fazit</a></li>
+    </ol>
+  </div>
 
-            <!-- Archive -->
-            <div class="b-widget">
-                <div class="b-widget-title">Archiv</div>
-                <div class="b-widget-body">
-                    <ul class="b-archive-list">
-                        <li><a href="#"><span>März 2026</span><span class="b-archive-count">(2)</span></a></li>
-                        <li><a href="#"><span>Februar 2026</span><span class="b-archive-count">(1)</span></a></li>
-                        <li><a href="#"><span>Januar 2026</span><span class="b-archive-count">(3)</span></a></li>
-                        <li><a href="#"><span>Dezember 2025</span><span class="b-archive-count">(2)</span></a></li>
-                        <li><a href="#"><span>November 2025</span><span class="b-archive-count">(4)</span></a></li>
-                    </ul>
-                </div>
-            </div>
+  <!-- Intro -->
+  <p class="intro">Der Ruhestand ist eine Zeit, in der viele Menschen ihr Leben genießen möchten – mit Freizeitaktivitäten, Reisen und Zeit mit Familie und Freunden. Doch Risiken können jederzeit auftreten. Gerade im Alter können Unfälle schwerwiegende Folgen haben – gesundheitlich und finanziell.</p>
 
-            <!-- Labels -->
-            <div class="b-widget">
-                <div class="b-widget-title">Kategorien</div>
-                <div class="b-widget-body">
-                    <ul class="b-archive-list">
-                        <li><a href="#"><span>Unfallversicherung</span><span class="b-archive-count">3</span></a></li>
-                        <li><a href="#"><span>Krankenversicherung</span><span class="b-archive-count">5</span></a></li>
-                        <li><a href="#"><span>Lebensversicherung</span><span class="b-archive-count">2</span></a></li>
-                        <li><a href="#"><span>Hausrat</span><span class="b-archive-count">2</span></a></li>
-                        <li><a href="#"><span>Kfz-Versicherung</span><span class="b-archive-count">4</span></a></li>
-                        <li><a href="#"><span>Haftpflicht</span><span class="b-archive-count">1</span></a></li>
-                    </ul>
-                </div>
-            </div>
+  <p>Eine <strong>Unfallversicherung für Rentner</strong> bietet zusätzlichen Schutz. Sie ergänzt die Absicherung durch die gesetzliche Unfallversicherung oder die private Krankenversicherung und kann im Ernstfall dabei helfen, finanzielle Belastungen besser zu tragen.</p>
 
-        </aside>
+  <h2 id="s1">Was ist eine Unfallversicherung für Rentner?</h2>
+  <p>Die Unfallversicherung für Rentner ist eine private Absicherung, die auf die Lebenssituation älterer Menschen abgestimmt ist. Sie leistet, wenn ein Unfall zu körperlichen Beeinträchtigungen führt und daraus eine dauerhafte Einschränkung entsteht.</p>
+  <p>Im Mittelpunkt steht meist eine <strong>Invaliditätsleistung</strong>: Je nach Schwere der Beeinträchtigung wird eine einmalige Kapitalzahlung vereinbart, die freie Verwendung erlaubt – etwa für Anpassungen im Alltag oder notwendige Anschaffungen.</p>
+  <div class="ibox">
+    <strong>Mögliche Zusatzleistungen je nach Tarif</strong>
+    Unfallrente (monatliche Zahlung bei hoher Invalidität), Übergangsleistungen nach schweren Verletzungen, Tagegeld, Krankenhaustagegeld, Haushaltshilfe sowie Beitragsbefreiung bei dauerhafter schwerer Einschränkung.
+  </div>
 
-        <!-- ── MAIN ARTICLE ── -->
-        <main>
-            <article class="b-post-card reveal">
+  <h2 id="s2">Warum brauchen Rentner eine Unfallversicherung?</h2>
+  <p>Viele Rentner gehen davon aus, dass sie durch die Krankenversicherung bereits ausreichend geschützt sind. Die gesetzliche Krankenversicherung zahlt in erster Linie für Arztbesuche, Operationen und Therapien – die finanziellen Folgekosten eines Unfalls bleiben jedoch oft bei den Betroffenen.</p>
+  <ul>
+    <li>Umbauten in Wohnung oder Haus (barrierefreie Dusche, Haltegriffe, Treppenlift)</li>
+    <li>Pflege- und Betreuungskosten, wenn Hilfe im Alltag nötig wird</li>
+    <li>Reha und Hilfsmittel, die nicht vollständig übernommen werden (Rollator, Rollstuhl)</li>
+    <li>Haushaltshilfen und Unterstützung im Alltag</li>
+    <li>Fahrt- und Transportkosten zu Behandlungen oder Reha-Terminen</li>
+  </ul>
 
-                <!-- Post Header -->
-                <div class="b-post-header">
-                    <div class="b-post-title">
-                        <span>Unfallversicherung für Rentner – sinnvoller Schutz im Alter</span>
-                        <button class="b-share-icon" title="Teilen">&#x276F;</button>
-                    </div>
-                    <div class="b-post-date">März 17, 2026</div>
+  <h2 id="s3">Leistungen der Unfallversicherung für Rentner</h2>
+  <p>Versichert sind unter anderem Ereignisse ausgelöst durch:</p>
+  <ul>
+    <li>Gesundheitliche Störungen wie Herzinfarkt, Schlaganfall oder Unterzuckerung</li>
+    <li>Vorübergehende Bewusstseinsstörungen durch ärztlich verordnete Medikamente</li>
+    <li>Unfälle infolge starker Erschöpfung oder allergischer Reaktionen</li>
+    <li>Vergiftungen durch Gase oder Lebensmittel</li>
+    <li>Infektionen nach Insektenstichen · Folgen nach Schutzimpfungen</li>
+  </ul>
+  <div class="ibox">
+    <strong>Weitere Leistungen ohne Mehrbeitrag</strong>
+    Einmalzahlungen bei Kopfverletzungen · kosmetische Korrekturen nach Unfall · Bergungs- und Rücktransportkosten im In- und Ausland · Zuschüsse zu Reha- und Kurmaßnahmen.
+  </div>
 
-                    <!-- Table of Contents -->
-                    <div class="b-toc">
-                        <div class="b-toc-title">Inhaltsverzeichnis</div>
-                        <ol>
-                            <li><a href="#sec1">Was ist eine Unfallversicherung für Rentner?</a></li>
-                            <li><a href="#sec2">Warum brauchen Rentner eine Unfallversicherung?</a></li>
-                            <li><a href="#sec3">Leistungen im Überblick</a></li>
-                            <li><a href="#sec4">Invaliditätsleistung &amp; Gliedertaxe</a></li>
-                            <li><a href="#sec5">Unfallrente</a></li>
-                            <li><a href="#sec6">Progression – so funktioniert sie</a></li>
-                            <li><a href="#sec7">Versicherung gezielt erweitern (Unfall PLUS)</a></li>
-                            <li><a href="#sec8">Wann gilt ein Ereignis als Unfall?</a></li>
-                            <li><a href="#sec9">Häufige Fragen</a></li>
-                            <li><a href="#sec10">Fazit</a></li>
-                        </ol>
-                    </div>
-                </div>
+  <h2 id="s4">Invaliditätsleistung &amp; Gliedertaxe</h2>
+  <p>Bleibt nach einem Unfall eine dauerhafte Beeinträchtigung zurück, zahlt die Unfallversicherung eine <strong>Kapitalleistung</strong>. Die Höhe richtet sich nach der Versicherungssumme, dem Invaliditätsgrad und der <strong>Gliedertaxe</strong>.</p>
+  <div class="tbl-wrap">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Körperteil / Sinnesorgan</th>
+          <th>Standard-Gliedertaxe</th>
+          <th>Erweiterte Gliedertaxe</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Auge</td><td>50 %</td><td>60 %</td></tr>
+        <tr><td>Arm</td><td>70 %</td><td>85 %</td></tr>
+        <tr><td>Fuß</td><td>40 %</td><td>50 %</td></tr>
+        <tr><td>Gehör auf einem Ohr</td><td>30 %</td><td>40 %</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="cbox">
+    <strong>Beispielrechnung:</strong> Versicherungssumme 100.000 € × Invaliditätsgrad 50 % = Auszahlung <strong>50.000 €</strong>.
+  </div>
 
-                <!-- Post Body -->
-                <div class="b-post-body">
+  <h2 id="s5">Unfallrente</h2>
+  <p>Neben der Kapitalleistung kann eine <strong>lebenslange monatliche Zahlung</strong> vereinbart werden. Diese Unfallrente wird fällig, wenn die Unfallfolgen zu einer erheblichen dauerhaften Beeinträchtigung führen – etwa ab einem Invaliditätsgrad von 50 Prozent. Sie deckt laufende Ausgaben für Pflege, Haushaltshilfe oder therapeutische Maßnahmen.</p>
 
-                    <p>Der Ruhestand ist eine Zeit, in der viele Menschen ihr Leben genießen möchten – mit Freizeitaktivitäten, Reisen und Zeit mit Familie und Freunden. Doch Risiken können jederzeit auftreten: ein Sturz beim Spazierengehen, ein Radunfall auf dem Weg zum Einkaufen oder ein Sportunfall im Verein. Gerade im Alter können Unfälle schwerwiegende Folgen haben – gesundheitlich und finanziell.</p>
-                    <p>Eine <strong>Unfallversicherung für Rentner</strong> bietet zusätzlichen Schutz. Sie ergänzt die Absicherung durch die gesetzliche Unfallversicherung oder die private Krankenversicherung und kann im Ernstfall dabei helfen, finanzielle Belastungen besser zu tragen.</p>
+  <h2 id="s6">Invaliditätsleistung mit Progression</h2>
+  <p>Bei einer vereinbarten <strong>Progression</strong> steigt die Auszahlung bei höheren Invaliditätsgraden überproportional an.</p>
+  <div class="tbl-wrap">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Invaliditätsgrad</th>
+          <th>Ohne Progression</th>
+          <th>Progression 225 %</th>
+          <th>Progression 500 %</th>
+          <th>Progression 1.000 %</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>25 %</td><td>12.500 €</td><td>12.500 €</td><td>12.500 €</td><td>12.500 €</td></tr>
+        <tr><td>50 %</td><td>25.000 €</td><td>37.500 €</td><td>50.000 €</td><td>62.500 €</td></tr>
+        <tr><td>75 %</td><td>37.500 €</td><td>75.000 €</td><td>125.000 €</td><td>187.500 €</td></tr>
+        <tr><td>100 %</td><td>50.000 €</td><td>112.500 €</td><td>250.000 €</td><td>500.000 €</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><em>Basis: Versicherungssumme 50.000 €. Bei 75 % Invalidität steigt die Leistung mit Progression 500 % von 37.500 € auf 125.000 €.</em></p>
 
-                    <h2 id="sec1">Was ist eine Unfallversicherung für Rentner?</h2>
-                    <p>Die Unfallversicherung für Rentner ist eine private Absicherung, die auf die Lebenssituation älterer Menschen abgestimmt ist. Sie leistet, wenn ein Unfall zu körperlichen Beeinträchtigungen führt und daraus eine dauerhafte Einschränkung entsteht.</p>
-                    <p>Im Mittelpunkt steht meist eine <strong>Invaliditätsleistung</strong>: Je nach Schwere der Beeinträchtigung wird eine einmalige Kapitalzahlung vereinbart, die freie Verwendung erlaubt – etwa für Anpassungen im Alltag oder notwendige Anschaffungen.</p>
+  <h2 id="s7">Private Unfallversicherung gezielt erweitern – Unfall PLUS</h2>
+  <p>Der Zusatzbaustein <strong>„Unfall PLUS"</strong> stärkt den Schutz bei typischen Verletzungen im Alter:</p>
+  <ul>
+    <li>Sofortzahlung bei Knochen- und Oberschenkelhalsbrüchen – bis zu <strong>1.500 €</strong></li>
+    <li>Anhebung der Erstattungsgrenze für kosmetische Korrekturen auf <strong>100.000 €</strong></li>
+    <li>Erweiterte Reha-Beihilfe bis zu <strong>5.000 €</strong></li>
+    <li>Kostenübernahme für behindertengerechten Umbau bis <strong>30.000 €</strong></li>
+    <li>Kostenübernahme für Hilfsmittel oder Umschulungsmaßnahmen bis je <strong>10.000 €</strong></li>
+  </ul>
 
-                    <div class="b-infobox">
-                        <strong>Mögliche Leistungen je nach Tarif</strong>
-                        Unfallrente (monatliche Zahlung), Übergangsleistungen, Tagegeld, Krankenhaustagegeld, Haushaltshilfe nach Unfall sowie Beitragsbefreiung bei dauerhafter schwerer Einschränkung.
-                    </div>
+  <h2 id="s8">Wann gilt ein Ereignis als Unfall?</h2>
+  <p>Ein Unfall liegt vor, wenn die Gesundheit durch ein <strong>plötzliches Ereignis von außen</strong> beeinträchtigt wird und dies unfreiwillig geschieht. Typische Ursachen im Ruhestand:</p>
+  <ul>
+    <li>Stolpern auf Treppen oder im Garten</li>
+    <li>Ausrutschen auf glatten Böden oder Wegen</li>
+    <li>Verletzungen bei Gartenarbeiten oder handwerklichen Tätigkeiten</li>
+    <li>Stürze vom Fahrrad oder E-Bike</li>
+    <li>Knochenbrüche infolge altersbedingt geringerer Knochendichte</li>
+  </ul>
 
-                    <h2 id="sec2">Warum brauchen Rentner eine Unfallversicherung?</h2>
-                    <p>Viele Rentner gehen davon aus, dass sie durch die Krankenversicherung bereits ausreichend geschützt sind. Die gesetzliche Krankenversicherung zahlt in erster Linie für Arztbesuche, Operationen, Medikamente und Therapien – die finanziellen Folgekosten eines Unfalls bleiben jedoch oft bei den Betroffenen.</p>
-                    <p>Konkrete Folgekosten nach einem schweren Unfall können sein:</p>
-                    <ul>
-                        <li>Umbauten in Wohnung oder Haus (barrierefreie Dusche, Haltegriffe, Treppenlift, Rampen)</li>
-                        <li>Pflege- und Betreuungskosten, wenn Hilfe im Alltag nötig wird</li>
-                        <li>Reha und Hilfsmittel, die nicht vollständig übernommen werden (Rollator, Rollstuhl, Orthesen)</li>
-                        <li>Haushaltshilfen und Unterstützung im Alltag</li>
-                        <li>Fahrt- und Transportkosten zu Behandlungen oder Reha-Terminen</li>
-                    </ul>
+  <h2 id="s9">Häufige Fragen</h2>
 
-                    <h2 id="sec3">Leistungen der Unfallversicherung für Rentner</h2>
-                    <p>Die Unfallversicherung für Rentner berücksichtigt die besonderen Gegebenheiten des Alters. Versichert sind unter anderem Ereignisse ausgelöst durch:</p>
-                    <ul>
-                        <li>Gesundheitliche Störungen wie Herzinfarkt, Schlaganfall oder Unterzuckerung</li>
-                        <li>Vorübergehende Bewusstseinsstörungen durch ärztlich verordnete Medikamente</li>
-                        <li>Unfälle infolge starker Erschöpfung</li>
-                        <li>Allergische Reaktionen nach Verletzungen der Haut oder Schleimhäute</li>
-                        <li>Vergiftungen durch Gase oder Lebensmittel</li>
-                        <li>Infektionen, zum Beispiel nach Insektenstichen</li>
-                        <li>Gesundheitliche Folgen nach Schutzimpfungen</li>
-                    </ul>
+  <h3>Ist eine private Unfallversicherung im Rentenalter noch sinnvoll?</h3>
+  <p>Ja. Mit dem Ende des Berufslebens besteht kein Schutz mehr über die gesetzliche Unfallversicherung – diese gilt nur bei der Arbeit oder auf dem direkten Arbeitsweg. Unfälle im Alltag bleiben ohne private Absicherung ungeschützt.</p>
 
-                    <div class="b-infobox">
-                        <strong>Weitere Leistungen ohne Mehrbeitrag</strong>
-                        Einmalzahlungen bei bestimmten Kopfverletzungen · kosmetisch notwendige Korrekturen nach Unfall · Bergungs- und Rücktransportkosten im In- und Ausland · Zuschüsse zu Reha- und Kurmaßnahmen · Sofortzahlungen bei dauerhafter Funktionsunfähigkeit eines Körperteils.
-                    </div>
+  <h3>Zahlt die Versicherung auch bei selbst verschuldeten Unfällen?</h3>
+  <p>In der Regel ja. Ausgenommen sind nur vorsätzlich verursachte Ereignisse oder Unfälle im Zusammenhang mit strafbaren Handlungen.</p>
 
-                    <h2 id="sec4">Invaliditätsleistung &amp; Gliedertaxe</h2>
-                    <p>Bleibt nach einem Unfall eine dauerhafte körperliche oder geistige Beeinträchtigung zurück, zahlt die Unfallversicherung eine <strong>Kapitalleistung</strong>. Die Höhe richtet sich nach der vereinbarten Versicherungssumme, dem Grad der Invalidität sowie der <strong>Gliedertaxe</strong> – sie legt fest, wie stark der Verlust oder die Funktionsminderung einzelner Körperteile bewertet wird.</p>
+  <h3>Gibt es Leistungen bei altersbedingten Ursachen wie Schwindel?</h3>
+  <p>Viele Tarife berücksichtigen Unfälle, die durch kurzzeitige Bewusstseinsstörungen oder Gleichgewichtsprobleme entstehen. Entscheidend ist, dass der Unfall selbst die direkte Ursache für die Verletzung darstellt.</p>
 
-                    <div class="b-table-wrap">
-                        <table class="b-table">
-                            <thead>
-                                <tr>
-                                    <th>Körperteil / Sinnesorgan</th>
-                                    <th>Standard-Gliedertaxe</th>
-                                    <th>Erweiterte Gliedertaxe</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr><td>Auge</td><td>50 %</td><td>60 %</td></tr>
-                                <tr><td>Arm</td><td>70 %</td><td>85 %</td></tr>
-                                <tr><td>Fuß</td><td>40 %</td><td>50 %</td></tr>
-                                <tr><td>Gehör auf einem Ohr</td><td>30 %</td><td>40 %</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
+  <h3>Ist der Versicherungsschutz auch im Ausland gültig?</h3>
+  <p>Ja, in den meisten Tarifen gilt die Unfallversicherung <strong>weltweit</strong> – einschließlich Urlaubsreisen und längerer Aufenthalte außerhalb Deutschlands.</p>
 
-                    <div class="b-warnbox">
-                        <strong>Beispielrechnung</strong>
-                        Versicherungssumme 100.000 € × Invaliditätsgrad 50 % = Auszahlung <strong>50.000 €</strong>.
-                    </div>
+  <h3>Gibt es eine Altersgrenze für den Abschluss?</h3>
+  <p>Viele Versicherer ermöglichen den Abschluss bis ins hohe Alter, teilweise bis zum 75. oder 80. Lebensjahr. Nach Vertragsabschluss läuft der Schutz meist lebenslang weiter.</p>
 
-                    <h2 id="sec5">Unfallrente</h2>
-                    <p>Neben der Kapitalleistung kann eine <strong>lebenslange monatliche Zahlung</strong> vereinbart werden. Diese Unfallrente wird fällig, wenn die Unfallfolgen zu einer erheblichen dauerhaften Beeinträchtigung führen – etwa ab einem Invaliditätsgrad von 50 Prozent.</p>
-                    <p>Die regelmäßige Zahlung dient dazu, laufende Ausgaben zu decken: Kosten für Pflege, Haushaltshilfe oder besondere therapeutische Maßnahmen.</p>
+  <h3>Wann und wie muss ein Unfall gemeldet werden?</h3>
+  <p>So früh wie möglich – telefonisch, schriftlich oder über ein Schadenformular. Eine zeitnahe Meldung erleichtert die Prüfung und beschleunigt die Auszahlung.</p>
 
-                    <h2 id="sec6">Invaliditätsleistung mit Progression</h2>
-                    <p>Bei einer vereinbarten <strong>Progression</strong> steigt die Auszahlung bei höheren Invaliditätsgraden überproportional an. Gerade bei schweren Einschränkungen kann dies eine wichtige finanzielle Absicherung darstellen.</p>
+  <h2 id="s10">Fazit</h2>
+  <p>Eine Unfallversicherung für Rentner bietet Schutz gegen finanzielle Belastungen, die durch Unfälle entstehen können. Sie ergänzt die gesetzliche Krankenversicherung und kann helfen, Eigenleistungen zu reduzieren oder finanzielle Engpässe zu vermeiden. Insbesondere bei aktiven Lebensstilen kann eine solche Absicherung einen wertvollen Beitrag zur Sicherheit im Ruhestand leisten.</p>
+  <div class="ibox">
+    <strong>Mehr erfahren</strong>
+    Sprechen Sie mit einem unabhängigen Versicherungsberater, um die passende Absicherung für Ihre persönliche Lebenssituation zu finden.
+  </div>
 
-                    <div class="b-table-wrap">
-                        <table class="b-table">
-                            <thead>
-                                <tr>
-                                    <th>Invaliditätsgrad</th>
-                                    <th>Ohne Progression</th>
-                                    <th>Progression 225 %</th>
-                                    <th>Progression 500 %</th>
-                                    <th>Progression 1.000 %</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr><td>25 %</td><td>12.500 €</td><td>12.500 €</td><td>12.500 €</td><td>12.500 €</td></tr>
-                                <tr><td>50 %</td><td>25.000 €</td><td>37.500 €</td><td>50.000 €</td><td>62.500 €</td></tr>
-                                <tr><td>75 %</td><td>37.500 €</td><td>75.000 €</td><td>125.000 €</td><td>187.500 €</td></tr>
-                                <tr><td>100 %</td><td>50.000 €</td><td>112.500 €</td><td>250.000 €</td><td>500.000 €</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p><em>Basis: Versicherungssumme 50.000 €. Bei 75 % Invalidität steigt die Leistung mit Progression 500 % von 37.500 € auf 125.000 €.</em></p>
+  <!-- Labels -->
+  <div class="post-ft">
+    <a href="#" class="lbl">Unfallversicherung</a>
+    <a href="#" class="lbl">Rentner</a>
+    <a href="#" class="lbl">Invalidität</a>
+    <a href="#" class="lbl">Unfallrente</a>
+    <a href="#" class="lbl">Gliedertaxe</a>
+    <a href="#" class="lbl">Seniorenschutz</a>
+  </div>
 
-                    <h2 id="sec7">Private Unfallversicherung gezielt erweitern – Unfall PLUS</h2>
-                    <p>Der Zusatzbaustein <strong>„Unfall PLUS"</strong> stärkt den Schutz bei typischen Verletzungen im Alter:</p>
-                    <ul>
-                        <li>Sofortzahlung bei Knochen- und Oberschenkelhalsbrüchen – bis zu <strong>1.500 €</strong></li>
-                        <li>Anhebung der Erstattungsgrenze für kosmetische Korrekturen auf <strong>100.000 €</strong></li>
-                        <li>Erweiterte Reha-Beihilfe bis zu <strong>5.000 €</strong></li>
-                        <li>Kostenübernahme für behindertengerechten Umbau bis <strong>30.000 €</strong></li>
-                        <li>Kostenübernahme für Hilfsmittel, Blindenführhund oder Umschulungsmaßnahmen bis je <strong>10.000 €</strong></li>
-                    </ul>
+</article>
+</div>
 
-                    <h2 id="sec8">Wann gilt ein Ereignis als Unfall?</h2>
-                    <p>Ein Unfall liegt vor, wenn die Gesundheit durch ein <strong>plötzliches Ereignis von außen</strong> beeinträchtigt wird und dies unfreiwillig geschieht. Typische Ursachen im Ruhestand:</p>
-                    <ul>
-                        <li>Stolpern auf Treppen oder im Garten</li>
-                        <li>Ausrutschen auf glatten Böden oder Wegen</li>
-                        <li>Verletzungen bei Gartenarbeiten oder handwerklichen Tätigkeiten</li>
-                        <li>Stürze vom Fahrrad oder E-Bike</li>
-                        <li>Knochenbrüche infolge altersbedingt geringerer Knochendichte</li>
-                    </ul>
-
-                    <h2 id="sec9">Häufige Fragen zur Unfallversicherung für Rentner</h2>
-
-                    <h3>Ist eine private Unfallversicherung im Rentenalter noch sinnvoll?</h3>
-                    <p>Ja. Mit dem Ende des Berufslebens besteht kein Schutz mehr über die gesetzliche Unfallversicherung – diese gilt nur bei der Arbeit oder auf dem direkten Arbeitsweg. Unfälle im Alltag bleiben ohne private Absicherung ungeschützt.</p>
-
-                    <h3>Zahlt die Versicherung auch bei selbst verschuldeten Unfällen?</h3>
-                    <p>In der Regel ja. Die private Unfallversicherung leistet auch dann, wenn kein Dritter beteiligt ist. Ausgenommen sind nur vorsätzlich verursachte Ereignisse oder Unfälle im Zusammenhang mit strafbaren Handlungen.</p>
-
-                    <h3>Gibt es Leistungen bei altersbedingten Ursachen wie Schwindel?</h3>
-                    <p>Viele Tarife berücksichtigen Unfälle, die durch kurzzeitige Bewusstseinsstörungen oder Gleichgewichtsprobleme entstehen. Entscheidend ist, dass der Unfall selbst die direkte Ursache für die Verletzung darstellt.</p>
-
-                    <h3>Ist der Versicherungsschutz auch im Ausland gültig?</h3>
-                    <p>Ja, in den meisten Tarifen gilt die Unfallversicherung <strong>weltweit</strong> – einschließlich Urlaubsreisen und längerer Aufenthalte außerhalb Deutschlands.</p>
-
-                    <h3>Gibt es eine Altersgrenze für den Abschluss?</h3>
-                    <p>Viele Versicherer ermöglichen den Abschluss bis ins hohe Alter, teilweise bis zum 75. oder 80. Lebensjahr. Nach Vertragsabschluss läuft der Schutz meist lebenslang weiter.</p>
-
-                    <h3>Wann und wie muss ein Unfall gemeldet werden?</h3>
-                    <p>So früh wie möglich, sobald dies gesundheitlich machbar ist – telefonisch, schriftlich oder über ein Schadenformular. Eine zeitnahe Meldung erleichtert die Prüfung und beschleunigt die Auszahlung.</p>
-
-                    <h2 id="sec10">Fazit: Unfallversicherung für Rentner als sinnvolle Ergänzung</h2>
-                    <p>Eine Unfallversicherung für Rentner bietet Schutz gegen finanzielle Belastungen, die durch Unfälle entstehen können. Sie ergänzt die gesetzliche Krankenversicherung und kann helfen, Eigenleistungen zu reduzieren oder finanzielle Engpässe zu vermeiden.</p>
-                    <p>Insbesondere bei aktiven Lebensstilen oder vorhandenen Risiken im Alltag kann eine solche Absicherung einen wertvollen Beitrag zur Sicherheit im Ruhestand leisten.</p>
-
-                    <div class="b-infobox">
-                        <strong>Mehr erfahren</strong>
-                        Sprechen Sie mit einem unabhängigen Versicherungsberater, um die passende Absicherung für Ihre persönliche Lebenssituation zu finden.
-                    </div>
-
-                </div>
-
-                <!-- Post Footer / Labels -->
-                <div class="b-post-footer">
-                    <a href="#" class="b-label">Unfallversicherung</a>
-                    <a href="#" class="b-label">Rentner</a>
-                    <a href="#" class="b-label">Invalidität</a>
-                    <a href="#" class="b-label">Unfallrente</a>
-                    <a href="#" class="b-label">Gliedertaxe</a>
-                    <a href="#" class="b-label">Seniorenschutz</a>
-                </div>
-
-            </article>
-        </main>
-
-    </div>
-
-    <!-- ── FOOTER ── -->
-    <footer class="b-footer">
-        <p>
-            <a href="#">Impressum</a>
-            <a href="#">Datenschutz</a>
-            <a href="#">Kontakt</a>
-        </p>
-        <p style="margin-top:.5rem">&copy; 2026 Insurance Blog</p>
-    </footer>
-
-    <script>
-        const reveals = document.querySelectorAll('.reveal');
-        const obs = new IntersectionObserver((entries) => {
-            entries.forEach(e => {
-                if (e.isIntersecting) {
-                    e.target.classList.add('visible');
-                    obs.unobserve(e.target);
-                }
-            });
-        }, { threshold: 0.05 });
-        reveals.forEach(el => obs.observe(el));
-    </script>
+<!-- FOOTER -->
+<footer class="ft">
+  <span class="ft-logo">Insurance Blog</span>
+  <ul class="ft-links">
+    <li><a href="#">Impressum</a></li>
+    <li><a href="#">Datenschutz</a></li>
+    <li><a href="#">Kontakt</a></li>
+  </ul>
+  <span class="ft-copy">&copy; 2026 Insurance Blog</span>
+</footer>
 
 </body>
 </html>
