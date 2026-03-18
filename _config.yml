@@ -1,0 +1,6 @@
+# Thông tin website
+url: "https://wearingshortss.github.io"
+
+# Khai báo plugin
+plugins:
+  - jekyll-sitemap
